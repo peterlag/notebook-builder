@@ -1,0 +1,18 @@
+<div class="container-fluid container-style">
+    <div class="row container-body">
+        <div class="container-card background-image " *ngIf="showSlide">
+            <div class="slider-class">
+                <step-process [stepNumber]="stepNumber" ></step-process>
+            </div>
+            <div class="nav-class">
+                <nav-component (stepNumberEvent)="stepNumberEvent($event)"></nav-component>
+            </div>
+        </div>
+        <div *ngIf="!showSlide" class="welcome-view">
+            <welcome-view (showSlideEvent)="showSlideEvent($event)"></welcome-view>
+        </div>
+    </div>   
+    <div class="row container-footer">
+        <footer></footer>
+    </div>
+</div>

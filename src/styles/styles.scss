@@ -1,0 +1,60 @@
+//**************Colors******************//
+$primaryColor: #e874bc;
+$secondaryColor: #c8a4dc;
+$fontColor: #ffffff;
+$primaryColorFocus: #F189C5;
+
+//*************borders******************//
+$borderRadius: 10px;
+
+//*****************buttons**************//
+.primary-button {
+    background-color: $primaryColor !important;
+    color: $fontColor !important;
+    border-radius: $borderRadius !important;
+}
+
+.secondary-button {
+    background-color: $secondaryColor !important;
+    color: $fontColor !important;
+    border-radius: $borderRadius !important;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+//************Media query**************//
+@media screen and (min-width: 520px) {
+    .container-style {
+        width: 520px !important;
+        height: 100vh !important;
+        -webkit-box-shadow: -3px 9px 43px -4px rgba(0, 0, 0, 0.37);
+        -moz-box-shadow: -3px 9px 43px -4px rgba(0, 0, 0, 0.37);
+        box-shadow: -3px 9px 43px -4px rgba(0, 0, 0, 0.37);
+       
+    }
+}
+
+// @media screen and (min-width: 520px) {
+//     .container-style {
+//         width: 520px !important;
+//         height: 100vh !important;
+//         -webkit-box-shadow: -3px 9px 43px -4px rgba(0, 0, 0, 0.37);
+//         -moz-box-shadow: -3px 9px 43px -4px rgba(0, 0, 0, 0.37);
+//         box-shadow: -3px 9px 43px -4px rgba(0, 0, 0, 0.37);
+       
+//     }
+// }
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

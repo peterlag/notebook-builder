@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="row">
+        <span>Elije el diseño que mas te gusta</span>
+        <span>Lorem ipsum d</span>
+        <swiper [watchSlidesProgress]="true" [slidesPerView]="3" class="mySwiper"  >
+            <ng-template swiperSlide *ngFor="let card of cards; index as i" ><div (click)="selectDesign(i)">{{card}}</div></ng-template>
+        </swiper>
+
+    </div>
+    <div class="row">
+        <br>
+        <br>
+        <br>
+        <br>
+        <span *ngIf="cardSelected > 0">diseño seleccionado {{cardSelected}}</span>
+    </div>
+</div>

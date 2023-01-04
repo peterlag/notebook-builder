@@ -1,0 +1,21 @@
+.container-buttons{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 20px 0 20px;
+}
+
+button{
+  flex-grow: 1;
+  margin: 0 7px 0 7px;
+   width: 80%;
+}
+
+.whatsapp-white{
+  background-image: url("./whatsapp-icon-white.svg");
+  background-repeat: no-repeat;
+  width:15px;
+  padding: 0 8px 0 8px;
+  margin-left: 2px;
+}
+
+

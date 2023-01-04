@@ -1,0 +1,16 @@
+<div class="container-stepProcess">
+  <container-element [ngSwitch]="stepNumber">
+    <div *ngSwitchCase="1" [@fadeIn]>
+      <front-page-design></front-page-design>
+    </div>
+    <div *ngSwitchCase="2" [@fadeIn]>
+      <size-design></size-design>
+    </div>
+    <div *ngSwitchCase="3" [@fadeIn]>
+      <sheet-design></sheet-design>
+    </div>
+    <div *ngSwitchCase="4" [@fadeIn]>
+      <send-notification></send-notification>
+    </div>
+  </container-element>
+</div>
