@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { Observable } from 'rxjs/internal/Observable';
+import * as stepByStepActions from 'src/app/core/store/actions/stepByStep.action';
+// import { stateWelcome } from 'src/app/state/selectos/welcomeView.selector';
 
 @Component({
   selector: 'container',
@@ -7,12 +11,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContainerComponent implements OnInit {
 
-  showSlide: boolean = false;
   stepNumber: number = 0;
+  // showSlide$: Observable<boolean> = this.store.select(stateWelcome);
+  showSlide:boolean = false;
 
-  constructor() { }
+  constructor(private store:Store) { }
 
   ngOnInit(): void {
+    this.store.dispatch(stepByStepActions.increment())
   }
 
   stepNumberEvent(event: number){
@@ -20,6 +26,7 @@ export class ContainerComponent implements OnInit {
   }
 
   showSlideEvent(event:boolean){
+    this.stepNumber = 1; 
     this.showSlide = event;
   }
 

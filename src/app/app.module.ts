@@ -14,6 +14,9 @@ import { SheetDesignComponent } from '@components/step-by-step/sheet-design/shee
 import { SendNotificationComponent } from '@components/step-by-step/send-notification/send-notification.component';
 import { StepProcessComponent } from './components/step-process/step-process.component';
 import { WelcomeViewComponent } from '@layout/welcome-view/welcome-view.component';
+import { StoreModule } from '@ngrx/store';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import * as reducers from '@store/reducers/stepByStep.reducer';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,9 @@ import { WelcomeViewComponent } from '@layout/welcome-view/welcome-view.componen
     BrowserModule,
     AppRoutingModule,
     SwiperModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    StoreModule.forRoot({ count: reducers.counterReducer }),
+    StoreDevtoolsModule.instrument({ maxAge: 25}),
   ],
   providers: [],
   bootstrap: [AppComponent]

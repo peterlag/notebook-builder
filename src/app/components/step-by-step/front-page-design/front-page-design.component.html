@@ -1,9 +1,21 @@
 <div class="container-fluid">
     <div class="row">
-        <span>Elije el diseño que mas te gusta</span>
-        <span>Lorem ipsum d</span>
+        <span>Seleccione el tipo de diseño que tendrá la portada</span>
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn tertiary-button" (click)="filter(1)">
+                <input type="radio" name="typeDesign" id="frase"> Frase
+            </label>
+            <label class="btn tertiary-button" (click)="filter(2)">
+                <input type="radio"  name="typeDesign" id="dibujo"> Dibujo
+            </label>
+            <label class="btn tertiary-button" (click)="filter(3)">
+                <input type="radio" name="typeDesign" id="exclusivo"> Exclusivo
+            </label>
+          </div>
         <swiper [watchSlidesProgress]="true" [slidesPerView]="3" class="mySwiper"  >
-            <ng-template swiperSlide *ngFor="let card of cards; index as i" ><div (click)="selectDesign(i)">{{card}}</div></ng-template>
+            <ng-template swiperSlide *ngFor="let card of dataCopy" class="margin">
+                <img (click)="selectDesign(card)" src="{{card.imageUrl}}" style="width: 146px; height: 243px;" />
+            </ng-template>
         </swiper>
 
     </div>
@@ -12,6 +24,7 @@
         <br>
         <br>
         <br>
-        <span *ngIf="cardSelected > 0">diseño seleccionado {{cardSelected}}</span>
+        <span *ngIf="cardSelected != null">diseño seleccionado</span>
+        <img *ngIf="cardSelected != null" src="{{cardSelected}}" style="width: 146px; height: 243px;" />
     </div>
 </div>

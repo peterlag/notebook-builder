@@ -1,0 +1,178 @@
+[
+    {
+        "id": "1",
+        "imageUrl": "../../../../assets/data/1.jpg",
+        "reference": "1",
+        "extension": "jpg",
+        "type": "1",
+        "new": true
+    },
+    {
+        "id": "2",
+        "imageUrl": "../../../../assets/data/2.jpg",
+        "reference": "2",
+        "extension": "jpg",
+        "type": "1",
+        "new": true
+    },
+    {
+        "id": "3",
+        "imageUrl": "../../../../assets/data/3.jpg",
+        "reference": "3",
+        "extension": "jpg",
+        "type": "1",
+        "new": true
+    },
+    {
+        "id": "4",
+        "imageUrl": "../../../../assets/data/4.jpg",
+        "reference": "4",
+        "extension": "jpg",
+        "type": "1",
+        "new": true
+    },
+    {
+        "id": "5",
+        "imageUrl": "../../../../assets/data/5.jpg",
+        "reference": "5",
+        "extension": "jpg",
+        "type": "1",
+        "new": true
+    },
+    {
+        "id": "6",
+        "imageUrl": "../../../../assets/data/6.jpg",
+        "reference": "6",
+        "extension": "jpg",
+        "type": "1",
+        "new": true
+    },
+    {
+        "id": "7",
+        "imageUrl": "../../../../assets/data/7.jpg",
+        "reference": "7",
+        "extension": "jpg",
+        "type": "1",
+        "new": true
+    },
+    {
+        "id": "8",
+        "imageUrl": "../../../../assets/data/1f.jpg",
+        "reference": "1",
+        "extension": "jpg",
+        "type": "2",
+        "new": true
+    },
+    {
+        "id": "9",
+        "imageUrl": "../../../../assets/data/2f.jpg",
+        "reference": "2",
+        "extension": "jpg",
+        "type": "2",
+        "new": true
+    },
+    {
+        "id": "10",
+        "imageUrl": "../../../../assets/data/3f.jpg",
+        "reference": "3",
+        "extension": "jpg",
+        "type": "2",
+        "new": true
+    },
+    {
+        "id": "11",
+        "imageUrl": "../../../../assets/data/4f.jpg",
+        "reference": "4",
+        "extension": "jpg",
+        "type": "2",
+        "new": true
+    },
+    {
+        "id": "12",
+        "imageUrl": "../../../../assets/data/5f.jpg",
+        "reference": "5f",
+        "extension": "jpg",
+        "type": "2",
+        "new": true
+    },
+    {
+        "id": "13",
+        "imageUrl": "../../../../assets/data/6f.jpg",
+        "reference": "1f",
+        "extension": "jpg",
+        "type": "2",
+        "new": true
+    },
+    {
+        "id": "14",
+        "imageUrl": "../../../../assets/data/7f.jpg",
+        "reference": "7f",
+        "extension": "jpg",
+        "type": "2",
+        "new": true
+    },
+    {
+        "id": "7",
+        "imageUrl": "../../../../assets/data/1p.jpg",
+        "reference": "7",
+        "extension": "jpg",
+       "type": "3",
+        "new": true
+    },
+    {
+        "id": "8",
+        "imageUrl": "../../../../assets/data/1p.jpg",
+        "reference": "1",
+        "extension": "jpg",
+        "type": "3",
+        "new": true
+    },
+    {
+        "id": "9",
+        "imageUrl": "../../../../assets/data/2p.jpg",
+        "reference": "2",
+        "extension": "jpg",
+        "type": "3",
+        "new": true
+    },
+    {
+        "id": "10",
+        "imageUrl": "../../../../assets/data/3p.jpg",
+        "reference": "3",
+        "extension": "jpg",
+        "type": "3",
+        "new": true
+    },
+    {
+        "id": "11",
+        "imageUrl": "../../../../assets/data/4p.jpg",
+        "reference": "4",
+        "extension": "jpg",
+        "type": "3",
+        "new": true
+    },
+    {
+        "id": "12",
+        "imageUrl": "../../../../assets/data/5p.jpg",
+        "reference": "5f",
+        "extension": "jpg",
+        "type": "3",
+        "new": true
+    },
+    {
+        "id": "13",
+        "imageUrl": "../../../../assets/data/6p.jpg",
+        "reference": "1f",
+        "extension": "jpg",
+        "type": "3",
+        "new": true
+    },
+    {
+        "id": "14",
+        "imageUrl": "../../../../assets/data/7p.jpg",
+        "reference": "7f",
+        "extension": "jpg",
+        "type": "3",
+        "new": true
+    }
+]
